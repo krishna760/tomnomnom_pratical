@@ -1,7 +1,7 @@
 This project demonstrates a DOM-based postMessage vulnerability using a simple HTML interface and an interaction with a known insecure endpoint hosted on Google's Public Firing Range.
 
 ## Components:  
-Main HTML Page (index.html)
+Main HTML Page (index.html)  
 When clicked on clickme button, it dynamically loads an insecure iframe and sends a postMessage to it containing a JavaScript payload.
 The JavaScript file postmessageBug.js contains the onClickEvent() function that handles this logic.
 
